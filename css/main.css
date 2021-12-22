@@ -27,27 +27,27 @@ body {
 
 /*****HEADER*****/
 
-header {
+.home-header {
     height: 800px;
     background-image: url('../img/full-background.png');
     background-size: cover;
     background-position: center;
 }
-header h1 { 
+.home-header h1 { 
     padding: 65px 0 65px 25px;
     font-family:'Lora', serif;
     font-size: 30px;
     color: #bbc085;
 
 }
-nav {
+.home-header nav {
     float: right; 
     padding: 75px 25px;
 }
-nav ul li{
+.home-header ul li{
     display: inline-block;
 }
-nav ul li a {
+.home-header ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font: Source Sans Pro;
@@ -56,7 +56,7 @@ nav ul li a {
     padding-left: 80px; 
 }
 
-header h2 {
+.home-header h2 {
     width: 1000px;
     clear: both;
     font-family: 'Lora', serif; 
@@ -65,7 +65,7 @@ header h2 {
     color: #9b9b9b;
     padding: 20px 0 20px 25px;
 }
-header h2 span {
+.home-header h2 span {
     color: #2b2b2b;
 }
 
@@ -174,4 +174,192 @@ header h2 span {
 }
 #contact ul img {
     padding-right: 48px;
+
 }
+
+/************************ABOUT PAGE***************************/
+
+.about-header {
+    height: 600px;
+    background-color: #EBEBEB;
+    background-size: cover;
+    background-position: center;
+}
+.about-header h1 { 
+    padding: 65px 0 65px 25px;
+    font-family:'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+
+}
+.about-header nav {
+    float: right; 
+    padding: 75px 25px;
+}
+.about-header ul li{
+    display: inline-block;
+}
+.about-header ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font: Source Sans Pro;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px; 
+}
+
+.about-header h2 {
+
+    color: #9b9b9b;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    
+}
+.about-header h2 span {
+    color: #2b2b2b;
+   
+}
+
+.about-body {
+    height: 600px;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-body p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    margin-top: 50px;
+
+}
+
+#p2 {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    margin-top: 0px;
+}
+
+.about-body img {
+    float: right; 
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+    height: 300px;
+    width: 241px;
+
+}
+
+.about-body a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.about-footer{
+    height: 600px;
+    background-color: #F9CEB7;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.about-footer ul li {
+    display: inline-block;
+    text-align: right;
+    float: right;
+    padding: 20px;
+}
+
+#twitterid {
+    padding-right: 0px;
+
+}
+
+/*******************CONTACT PAGE*******************/
+
+.contact-header {
+    height: 600px;
+    background-color: #EBEBEB;
+    background-size: cover;
+    background-position: center;
+}
+.contact-header h1 { 
+    padding: 65px 0 65px 25px;
+    font-family:'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+
+}
+.contact-header nav {
+    float: right; 
+    padding: 75px 25px;
+}
+.contact-header ul li{
+    display: inline-block;
+}
+.contact-header ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font: Source Sans Pro;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px; 
+}
+
+.contact-header h2 {
+
+    color: #9b9b9b;
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    
+}
+.contact-header h2 span {
+    color: #2b2b2b;
+   
+}
+
+.contact-body {
+    height: 600px;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.contact-body a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact-footer {
+    height: 600px;
+    background-color: #F9CEB7;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.contact-footer ul li {
+    display: inline-block;
+    text-align: right;
+    float: right;
+    padding: 20px;
+}
+
+#twitter-id {
+    padding-left: 0px;
+}
+
+#ul-id {
+    padding-left: 0px;
+}
+
+#contact-id  {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+
+
